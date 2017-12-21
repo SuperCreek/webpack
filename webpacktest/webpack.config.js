@@ -14,6 +14,30 @@ module.exports = {
 					'style-loader',
 					'css-loader'
 				]
+			},
+			{
+				test:/\.(png|svg|jpg|gif)$/,
+				use:[
+					'file-loader'
+				]
+			},
+			{
+				test:/\.(woff2|woff|svg|ttf|otf|eot)$/,
+				use:[
+					'file-loader'
+				]
+			},
+			{
+				test:/\.xml$/,
+				use:[
+					'xml-loader'
+				]
+			},
+			{
+				test:/\.(csv|tsv)$/,
+				use:[
+					'csv-loader'
+				]
 			}
 		]
 	}
