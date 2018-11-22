@@ -1,4 +1,4 @@
-##管理资源
+## 管理资源
 
 * 1.修改index.html的title标签
 * 2.加载css npm install --save-dev style-loader css-loader
